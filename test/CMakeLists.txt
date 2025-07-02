@@ -22,6 +22,7 @@ set(testFiles
     testutilsnumber.cpp
     testutilsstring.cpp
     testutilsversion.cpp
+    my_test.cpp
 )
 
 foreach(testFile ${testFiles})
