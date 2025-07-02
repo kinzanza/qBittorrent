@@ -1,4 +1,5 @@
 #include <QtTest>
+
 class MyFeatureTest : public QObject
 {
     Q_OBJECT
@@ -10,4 +11,4 @@ private slots:
 };
 
 QTEST_MAIN(MyFeatureTest)
-#include "testmyfeature.moc"
+#include "my_test.moc"
